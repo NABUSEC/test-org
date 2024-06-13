@@ -1,0 +1,11 @@
+
+name: Test Workflow
+on: workflow_dispatch
+jobs:
+  testing-action:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print Testing
+      run: echo "Test is working"
+    - name: Test Completed
+      run: "Test done!"
