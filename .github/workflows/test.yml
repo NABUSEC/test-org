@@ -8,4 +8,4 @@ jobs:
     - name: Print Testing
       run: echo "Test is working"
     - name: Test Completed
-      run: "Test done!"
+      run: echo "Test done!"
